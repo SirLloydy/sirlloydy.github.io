@@ -1,72 +1,36 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    font-weight: bold;
-}
-
 html {
-    background-color: rgb(1, 1, 31);
+    background-color: rgb(167, 167, 231);
+    font-family: Arial, Helvetica, sans-serif
 }
 
-thead {
-    background-color: black;
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button {
+    width: 150px;
+    height: 75px;
+    border: transparent;
+    border-radius: 10%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: aqua;
+    box-shadow: 0px 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: none;
 }
 
 table {
-    border: 3px solid navy;
+    border-spacing: 15px;
     margin: auto auto;
-    width: 750px;
-}
-
-td, th {
-    border-bottom: 1px solid navy;
-}
-
-td {
-    padding: 10px;
-}
-
-th {
-    padding: 5px;
-}
-
-h1, h2 {
-    text-align: center;
-}
-
-h2 {
-    color: aqua;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 40px;
-}
-
-.code {
-    background-color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
-    color: aqua;
-    padding: 5px;
-}
-
-nav table {
-    border: 0px;
-    background-color: black;
-    width: auto;
-}
-
-nav table td {
-    border-bottom: 0px;
-}
-
-.fixed {
-    position: fixed;
-    top: 25px;
-    left: 25px;
 }
